@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+
+int a=0,i,b=1,c,n;
+clrscr();
+printf("enter the range");
+scanf("%d",&n);
+printf("%d\n%d",a,b);
+
+for(i=1;i<=n-2;i++)
+{
+c=b+a;
+printf("\n%d",c);
+a=b;
+b=c;
+
+}
+getch();
+}
